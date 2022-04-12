@@ -30,7 +30,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background:rgb(4, 152, 172);
+    background:#309ec0;
     max-height: 90px;
     margin-top: -01%;
     
@@ -46,7 +46,6 @@ body{
 .nav-item{
     list-style-type: none;
     font-size: 1.3rem;
-    font-weight: 400px;
     display: block;
     flex: content;
     font-size: 14px;
@@ -68,11 +67,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
    
 }
 
-img{
+.profile{
    
    width: 220px;
    height: 230px;
@@ -83,15 +83,16 @@ img{
 
 .card p {
     font-size: 18px;
-    color: black;
+    color: #186c8d;
     text-align:center;
     margin-top: 0;
-    width: 40%;
-    line-height: 10px;
+    width: 35%;
+    line-height: 20px;
     margin-bottom: 0%;
+    font-family:monospace;
 }
 .card h1{
-    color: rgb(4, 152, 172);
+    color:#186c8d;
     font-size: 44px;
     font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 2%;
@@ -100,7 +101,7 @@ img{
 
 
 .content{
-    background-color: rgb(4, 152, 172);
+    background-color: #186c8d;
     display: flex;
     justify-content: space-between;
     font-size: medium;
@@ -143,7 +144,7 @@ h2{
     margin-left: 7.6ex;
     margin-top: 100px;
     margin-bottom: 80px;
-    color: rgb(13, 173, 173);
+    color: #186c8d;
 }
 
 
@@ -182,7 +183,7 @@ footer{
      font-weight: bold;
      text-align: center;
      margin-top: 300px;
-     background-color:rgb(13, 173, 173) ;
+     background-color:#186c8d;
      padding: 150px;
      color: white;
 }
