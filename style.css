@@ -177,13 +177,16 @@ h2{
     font-weight: bold;
 }
 
-.bottom-page{
+footer{
      font-size: 20px;
      font-weight: bold;
      text-align: center;
      margin-top: 300px;
      background-color:rgb(13, 173, 173) ;
+     padding: 150px;
+     color: white;
 }
+
 
 
 
