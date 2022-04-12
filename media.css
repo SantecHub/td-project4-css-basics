@@ -2,12 +2,12 @@
 
 @media screen and (min-width: 768px){
     .home-nav ul{
-        width: 25%;
+        width: 80%;
     }
 }
 
 @media screen and (min-width: 1200px){
     .home-nav ul{
-        width: 20%;
+        width: 40%;
     }
 }
