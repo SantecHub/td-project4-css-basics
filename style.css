@@ -19,6 +19,7 @@ body{
     font-size: 24px;
     font-weight: 700;
     margin-left: 50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo a{
@@ -86,10 +87,10 @@ body{
     color: #186c8d;
     text-align:center;
     margin-top: 0;
-    width: 35%;
+    width: 30%;
     line-height: 20px;
     margin-bottom: 0%;
-    font-family:monospace;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .card h1{
     color:#186c8d;
@@ -105,7 +106,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: medium;
-    padding: 10%;
+    padding: 5%;
     align-items: center;
     margin-top: 10px;
     color:white;
@@ -152,7 +153,7 @@ h2{
     display: flex;
     justify-content: space-between;   
     align-items: center;
-   padding: 20px;
+   padding: 10px 80px;
   text-align:center;
  
   
@@ -178,22 +179,35 @@ h2{
     font-weight: bold;
 }
 
-footer{
+.footer{
      font-size: 20px;
      font-weight: bold;
      text-align: center;
-     margin-top: 250px;
+     margin-top: 120px;
      background-color:#186c8d;
     padding: 4%;
      color: white;
+    
 }
 
-.social-icon{
+.social{
     color: #309ec0;
-    padding: 0%;
-    width: 10% 550%;
-     
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 650px;
+    margin-bottom: 1%;
 }
 
+ .social a{
+     color: #1bbdee;
 
+    }
 
+footer{
+    background-color: #186c8d;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
