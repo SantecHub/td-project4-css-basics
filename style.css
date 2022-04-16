@@ -194,7 +194,8 @@ h2{
     color: #309ec0;
     display: flex;
     justify-content: space-between;
-    padding: 5px 650px;
+    padding: 0px 550px;
+    text-align: center;
     margin-bottom: 1%;
 }
 
